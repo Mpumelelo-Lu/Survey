@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(85, 85, 123);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display:block;
+  }
+  
+  .survey-container {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    margin:auto;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color:white;
+  }
+  
+  fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(85, 85, 123);
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="text"], input[type="email"] {
+    width: 100%;
+  }
+  
+  textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(85, 85, 123);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
